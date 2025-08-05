@@ -15,8 +15,11 @@ User can mark the completed tasks by clicking on the checkbox on the left side o
 ### 🗑DELETE COMPLETED TASKS
 User can delete the tasks by clicking on delete button . 
 **Note:- Use can delete only completed tasks** .
-### READ MORE/READ LESS
-Each tasks are adjusted in a single line . Users can click **READ MORE** to read the complete task and can click **READ LESS** to adjust the task in a single line if its big enough.
+### 🔽READ MORE
+Each tasks are adjusted in a single line . Users can click **READ MORE** button just below the task to read the complete task.
+### 🔼READ LESS
+User can compress the complete task in online after clicking read more by clicking on ***READ LESS** button just below the task .
+
 ### 🫙PERSISTANT STORAGE
 Users need not to worry if they reload or close the website . The complete status of finished and unfinished tasks are stored locally in the browser .
 
