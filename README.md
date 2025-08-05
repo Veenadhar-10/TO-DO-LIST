@@ -10,4 +10,11 @@ User can add their tasks by typing their tasks in the input field and clicking o
 ### MARK COMPLETED TASKS
 User can mark the completed tasks by clicking on the checkbox on the left side of the task.Green color background represents the completed tasks and red color background represents incomplete tasks. 
 ### DELETE COMPLETED TASKS
-Usecan delete the tasks by clicking on delete button . **Note:- Use can delete only completed tasks** .
+User can delete the tasks by clicking on delete button . 
+**Note:- Use can delete only completed tasks** .
+### READ MORE/READ LESS
+Each tasks are adjusted in a single line . Users can click **READ MORE** to read the complete task and can click **READ LESS** to adjust the task in a single line if its big enough.
+### PERSISTANT STORAGE
+Users need not to worry if they reload or close the website . The complete status of finished and unfinished tasks are stored locally in the browser .
+
+
