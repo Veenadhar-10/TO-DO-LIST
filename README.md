@@ -1,27 +1,48 @@
-# TO-DO-LIST
-An interative web-bases application where users can manage theirdaily tasks by add new tasks,marking the completed tasks,deleting completed tasks,storing them locally in the browser.
-## Features
-1)Vibrant gradient background .
+# 📝 TO-DO LIST
 
-2)Clean, card-based task display .
+An interactive **web-based application** where users can manage their daily tasks by:
 
-3)Responsive layout that works on mobile and desktop .
+- Adding new tasks
+- Marking tasks as complete
+- Deleting completed tasks
+- Storing them locally in the browser for persistence
 
-## TASK MANAGEMENT
-### ➕ADD TASKS
-User can add their tasks by typing their tasks in the input field and clicking on add button
-### ✅MARK COMPLETED TASKS
-User can mark the completed tasks by clicking on the checkbox on the left side of the task.Green color background represents the completed tasks and red color background represents incomplete tasks. 
-### 🗑DELETE COMPLETED TASKS
-User can delete the tasks by clicking on delete button . 
-**Note:- Use can delete only completed tasks** .
-### 🔽READ MORE
-Each tasks are adjusted in a single line . Users can click **READ MORE** button just below the task to read the complete task.
-### 🔼READ LESS
-User can compress the complete task in online after clicking read more by clicking on ***READ LESS** button just below the task .
+---
 
-### 🫙PERSISTANT STORAGE
-Users need not to worry if they reload or close the website . The complete status of finished and unfinished tasks are stored locally in the browser .
+## ✨ Features
+
+1. 🌈 Vibrant gradient background
+2. 🧾 Clean, card-based task display
+3. 📱 Responsive layout that works on both mobile and desktop screens
+
+---
+
+## 🧠 Task Management
+
+### ➕ Add Tasks
+- Users can add tasks by typing them into the input field and clicking the **"Add"** button.
+
+### ✅ Mark Completed Tasks
+- Click the checkbox next to a task to mark it as completed.
+- A **green background** indicates the task is completed.
+- A **red background** indicates the task is still pending.
+
+### 🗑️ Delete Completed Tasks
+- Users can delete a task **only after it has been marked as completed** by clicking the **"Delete"** button.
+
+### 🔽 Read More
+- Long tasks are shown in a single line by default.
+- Click **"Read more"** to expand and view the full task text.
+
+### 🔼 Read Less
+- After expanding a task, click **"Read less"** to collapse it back to a single line.
+
+### 🫙 Persistent Storage
+- All tasks, along with their completion status, are stored in the browser using **localStorage**.
+- Tasks remain saved even after reloading or closing the tab.
+
+---
+
 ## 📘 Usage Instructions
 
 ### ✅ Adding a Task:
@@ -31,7 +52,7 @@ Users need not to worry if they reload or close the website . The complete statu
 
 ### ✔️ Completing a Task:
 - Click the checkbox next to a task
-- The task will turn **green** to indicate completion
+- The task will turn green to indicate completion
 
 ### 🗑️ Deleting a Task:
 - First, complete the task by checking the checkbox
@@ -40,5 +61,3 @@ Users need not to worry if they reload or close the website . The complete statu
 ### 📖 Viewing Long Tasks:
 - Click **"Read more"** to see the full text of long tasks
 - Click **"Read less"** to collapse the text again
-
-
