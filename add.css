@@ -126,4 +126,11 @@ margin-right: 1rem;
   button{
     scale:0.75;
   }
+  button:hover{
+    scale:1;
+  }
+  .in{
+width:auto;
+  }
+
 }
