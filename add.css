@@ -1,0 +1,129 @@
+html{
+  font-size: 16px;
+   background: linear-gradient(to right,  rgb(255, 78, 78), orange, yellow,rgb(35, 215, 35));
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.in{
+  width:30vw;
+  height:5vh;
+  margin-right:5vw;
+  background-color: black;color:gold;
+  margin-top: 3vh;
+  cursor: text;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.add,button{
+
+background-color: black;color:gold;
+font-weight: bolder;
+
+}
+
+.add:hover,.in:hover{
+  transform: translateY(-2px);
+}
+
+button:hover{
+  scale: 1.25;
+}
+
+body{
+  min-height: 0vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main
+{ margin-top: 3rem;
+  min-height: 0vh;
+  width: 80vw;
+  background-color:rgb(221, 220, 220);
+  
+  border-radius: 1%;
+  
+  width: 90%;
+  max-width: 800px;
+  margin-top: 2rem;
+
+  
+}
+.ro{
+  display: flex;flex-direction: column;align-items: center;
+}
+
+.header{
+  position: sticky;top:0;
+}
+
+.wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  display: inline-block;
+}
+
+
+.unwrapped {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  display: inline-block;
+}
+
+
+
+section{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 78, 78);
+  margin-top: 2rem;
+ border-radius: 3%;
+ max-width:100%;
+ transition: background-color 0.75s ease;
+ 
+}
+
+span{
+   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3px;
+}
+input,button{
+  cursor: pointer;
+}
+
+.inside{
+  display:flex;
+  height:3vh;
+  width:50vw; 
+  margin-top: 0.5rem;
+  align-self: center;
+  
+}
+
+input[type='checkbox']{
+scale:1.2;
+margin-right: 1rem;
+}
+
+
+.van{
+  display: none;
+}
+
+.com{
+  background-color: rgb(58, 255, 58);
+}
+
+@media(max-width:500px)
+{
+  button{
+    scale:0.75;
+  }
+}
