@@ -23,4 +23,19 @@ User can compress the complete task in online after clicking read more by clicki
 ### 🫙PERSISTANT STORAGE
 Users need not to worry if they reload or close the website . The complete status of finished and unfinished tasks are stored locally in the browser .
 
+## Usage Instructions
+### Adding a Task:
+Type your task in the input field
+Click the "Add" button
+The task will appear in your list
+### Completing a Task:
+Click the checkbox next to a task
+The task will turn green to indicate completion
+### Deleting a Task:
+First complete the task (check the checkbox)
+Then click the "Delete" button
+### Viewing Long Tasks:
+Click "Read more" to see the full text of long tasks
+Click "Read less" to truncate the text again
+
 
